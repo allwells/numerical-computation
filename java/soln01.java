@@ -1,5 +1,5 @@
 package java;
-public class soln {
+public class soln01 {
 
     private static void println(Object object) {
         System.out.println(object);
