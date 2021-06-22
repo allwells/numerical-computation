@@ -5,6 +5,11 @@ public class soln02 {
         System.out.println(object);
     }
 
+    private static double round(double value) {
+        double result = (double) Math.round(value * 1000000) / 1000000D;
+        return result;
+    }
+
     public static void main(String[] args) {
         // Formula: Xn+1 = Xn + C/Xn
 
@@ -18,7 +23,7 @@ public class soln02 {
             if (Xn == X0) {
                 break;
             } else {
-                println("X"+ n + ": " + (double) Math.round(Xn * 1000000) / 1000000D);
+                println("X"+ n + ": " + round(Xn));
                 X0 = Xn;
             }
         }
