@@ -1,4 +1,5 @@
 java/*.class
+c/*.out
 c/soln02
 c++/*.out
 c++/soln02
