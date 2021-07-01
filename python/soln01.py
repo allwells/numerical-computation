@@ -1,20 +1,20 @@
 import math
 
 h = 0.2
-a = 0.0
+a = 1
 b = math.pi / 2
 
 def f(value):
     result = value  - math.cos(value)
     return round(result, 4)
 
-def c(a, b):
+def ce(a, b):
     result = (a + b) / 2
     return round(result, 4)
 
 
 while (b - a) > h:
-    c = c(a, b)
+    c = ce(a, b)
     print('C =', round(c, 4))
 
     if (f(b) * f(a)) > 0:
