@@ -1,5 +1,5 @@
 package java;
-public class soln01 {
+public class BisecetionMethod {
 
     private static void println(Object object) {
         System.out.println(object);
