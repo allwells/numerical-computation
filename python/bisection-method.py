@@ -37,13 +37,6 @@ for i in range(0, n_max):
         else:
             print(c, 'is the root of the function')
             break
-        
-        # if f(c) < 0:
-        #     a = c
-        #     b = b
-        # else:
-        #     a = a
-        #     b = c
     else:
         print(c, 'is the root of the function')
         break
